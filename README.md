@@ -14,3 +14,67 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## commit atomic desing
+
+creacion de atomos:
+
+## badge
+etiqueta visual, muestra info corta
+
+## button
+atomo para la creacion de botones
+
+## estatusIndicator
+es unicamente visual, para que no se requiera texto para que el usuario entienda ejemplo: "en linea: verde"
+
+## icon 
+muestra un simbolo visual
+
+## image
+para agregar imagenes
+
+## input
+para que el usuario pueda escribir informacion ejemplo; barra de busqueda
+
+## label
+para indicar donde agregar nombre o descripcion a un campo
+
+## loader + css
+para ue muestre el cargando o procesando
+
+## Marker + css
+para marcar los distintos puntos en el mapa
+
+## text
+para todo texto :3
+
+## toolTip + css
+muestra un mensaje cuando el usuario interactua con algo, de esta forma no aparece mucha info en pantalla
+
+# Moleculas
+
+## actionButton
+boton completo
+
+## formfield
+formulario
+
+## infoRow
+organizar informacion en filas
+
+## loadingOverlay + css
+para que muestre el cargando
+
+## locationsearch
+buscador para el mapa, de esta forma se puede buscar una direccion exacta
+
+## locationstatus
+para mostrar el estado de una ubicacion
+
+## mapmarkercard
+trajeta para mostrar info de un marcador en el mapa
+
+## markerwhithtooltip
+marcador en el mapa que muestra un mensaje cuando interactuas con el, muestra info rapida.
