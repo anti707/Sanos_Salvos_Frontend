@@ -1,0 +1,20 @@
+.loader {
+  border: 3px solid #ccc;
+  border-top: 3px solid black;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.loader-text {
+  font-size: 14px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
