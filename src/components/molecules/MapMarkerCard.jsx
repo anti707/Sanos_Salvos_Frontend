@@ -1,10 +1,5 @@
 import React from "react";
 
-const statusMap = {
-  online: "success",
-  offline: "error",
-  pending: "warning",
-};
 
 function MapMarkerCard({
   title,
@@ -14,7 +9,6 @@ function MapMarkerCard({
   className = "",
   ...props
 }) {
-  const badgeVariant = statusMap[status] || "default";
 
   return (
     <div
@@ -25,7 +19,6 @@ function MapMarkerCard({
     >
       <div className="card-header">
         <Text variant="h3">{title}</Text>
-        <Badge variant={badgeVariant}>{status}</Badge>
       </div>
 
       {description && (

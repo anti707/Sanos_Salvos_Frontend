@@ -20,14 +20,10 @@ If you are developing a production application, we recommend using TypeScript wi
 
 creacion de atomos:
 
-## badge
-etiqueta visual, muestra info corta
 
 ## button
 atomo para la creacion de botones
 
-## estatusIndicator
-es unicamente visual, para que no se requiera texto para que el usuario entienda ejemplo: "en linea: verde"
 
 ## icon 
 muestra un simbolo visual
@@ -65,6 +61,7 @@ formulario
 organizar informacion en filas
 
 ## loadingOverlay + css
+
 para que muestre el cargando
 
 ## locationsearch
@@ -78,3 +75,14 @@ trajeta para mostrar info de un marcador en el mapa
 
 ## markerwhithtooltip
 marcador en el mapa que muestra un mensaje cuando interactuas con el, muestra info rapida.
+
+# organismos
+
+## CardPet
+cartas que contendra foto, titulo y descripcion de cada mascotas iran en la pagina principal, mas adelante ire mejorando el diseño
+
+## Footer
+es para el pie de pagina, contiene una imagen, mas link que servira para las redes e informacion
+
+## Navbar
+es la barra de arriba que tendra logo, titulo y dos botones uno que redirigira a la pagina de nosotros y otro que llevara a la pagina de donaciones
