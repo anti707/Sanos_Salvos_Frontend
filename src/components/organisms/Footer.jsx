@@ -1,4 +1,3 @@
-import React from "react";
 import {Image} from "../atoms";
 import {Text} from "../atoms/Text";
 import "./Footer.css";
@@ -34,3 +33,5 @@ function Footer({
     </footer>
   );
 }
+
+export default Footer;

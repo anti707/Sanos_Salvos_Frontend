@@ -1,10 +1,7 @@
-import React from "react";
-import { Image, Text, ActionButton } from "../atoms";
-import { Icon } from "../molecules";
-import { LocationSearch } from "../organisms";
+import { Image, Text} from "../atoms";
 import "./CardPet.css";
 
-function MapMarkerCard({
+function CardPet({
   title,
   description,
   image,
@@ -37,3 +34,4 @@ function MapMarkerCard({
     </div>
   );
 }
+export default CardPet;

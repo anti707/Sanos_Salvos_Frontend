@@ -1,4 +1,3 @@
-import React from "react";
 import Icon from "../atoms/Icon";
 import Text from "../atoms/Text";
 import LocationSearch from "../molecules/LocationSearch";
@@ -7,7 +6,6 @@ import "./Navbar.css";
 
 function Navbar({
   onSearch,
-  status,
   title = "Sanos y Salvos",
   className = ""
 }) {
@@ -33,3 +31,4 @@ function Navbar({
     </nav>
   );
 }
+export default Navbar;
